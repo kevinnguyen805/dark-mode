@@ -28,3 +28,14 @@ const App = () => {
 
 const rootElement = document.getElementById("root");
 ReactDOM.render(<App />, rootElement);
+
+
+
+/*
+MVP 
+1. Build a custom hook that let's you save data to localStorage
+2. Build a second custom hook that sets the dark-mode class on the body element 
+3. Compose your 2 new hooks together to be able to set and persist your user's dark mode preference 
+
+
+*/
